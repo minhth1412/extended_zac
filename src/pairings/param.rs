@@ -19,7 +19,7 @@ pub fn check_ciphersuite(csid: Ciphersuite) -> bool {
 }
 
 /// Generate a set of parameters from a seed and a ciphersuite ID.
-/// Returns an error is the seed is not long enough; or ciphersuite is not valid; or n == 0
+/// Returns an error if the seed is not long enough; or ciphersuite is not valid; or n == 0
 /// This function shall only be used for testing purpose.
 /// In deployment you should use `pointproofs-param` crate to ensure the
 /// security of the public parameters.
