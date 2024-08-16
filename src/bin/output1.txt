@@ -1,0 +1,27 @@
+Vector of keys: ["A", "B", "C", "D", "E", "F", "G"]
+Vector of values: [1, 2, 3, 1, 4, 2, 1]
+The values of D: [[], ["G", "D", "A"], ["B", "F"], ["C"], ["E"], [], []]
+existing values in D: ["G", "D", "A", "3"]
+existing values in D: ["B", "F", "2"]
+existing values in D: ["C", "1"]
+existing values in D: ["E", "1"]
+non-existing values in D: ["0", "1"]
+
+Commitment:  [Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x15a8221b8b07af95de2ce32e0ade7c72b75e76dec894c3b994b0a7a3cf2a9e2d6bc42039c085f73bda6c0387cbdfa567), y: Fq(0x04384b87692d851ce256b9fa08fb3619f7eb6738f09371b62b9181203d7ff645471f5e408e85ceb8f248ac9251994f73), z: Fq(0x0535079b40e774a3fc26bdcf64c9395fa405057c55a5137de1d21c37cf7e179075ed84d87ae432a51244a685cbc0bce4) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x0ce578e6c6f1eb257942bccbab7422c19ef48a617d0306af9341cafdaf4b50a2f35730eeca6fc5b64fa2696b28bff368), y: Fq(0x1191c6322af1544f1daffcf6255ae612294e3eee25466343a75fb05a30b6129861d9de9cdb5ccd9f25b1645af3abcd17), z: Fq(0x1331b7d67cf6cea07979ec5b45c53601a5ca72c19a6bdb9a2f5c26161159bb0e3dbaa5eeae9c1a858065793a2bfcca8a) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x048197698beb847c304495887e6f4f3521c8fd6098a1e59d9ffc13b58a1233422e844339ae91a47c28f484c7f1fe9b64), y: Fq(0x19b79af111ec080ceda6a810e799f04a748834f56824b649764a65ca6274259c9a678a29dd9d7f12c8b1939296fbdcb1), z: Fq(0x0365d14e27e3ce43244d2dd51a3ef6cb9b80a80a059b9073894524c329fe28497c1b69c865326f8c22def01c67ddedb7) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x06bb9548b632725708f2bbd7cb8786fc74b7114fb81600f0be87eed05ac60bc8577e84b48087708a3cc156c9a34a7690), y: Fq(0x01a22e6befb79f4ffe1ef9ad2fbe9b84e7c4286dc91145dd2983dd7f6dd17bfdce301cbc11f3eedae5712e471a5c8a29), z: Fq(0x03d0258853d4ee88c0995ea037fceb7cfe7e7c46be1047e691f9b3f8a18dcd01f1153b075f568451b4b984fc4da85366) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x1852c9da0c22cde200286a1a62889d437673d3734aa87f7bfae473fd0a213b99479a36a7c3b5efaff02d594ebfa0b93a), y: Fq(0x102b8fba81b4cf35cf59ada7a6d3d45fcf03a1e89afb586794ca031c642832432d7b1960fec82e782d1f044fc3de153d), z: Fq(0x0c4f265cabb01c723bc11fe3047cc44c9acd516cbc9e86b55c3730946e3665de6d4d69791403af2ba82fa781cfa1b785) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x1852c9da0c22cde200286a1a62889d437673d3734aa87f7bfae473fd0a213b99479a36a7c3b5efaff02d594ebfa0b93a), y: Fq(0x102b8fba81b4cf35cf59ada7a6d3d45fcf03a1e89afb586794ca031c642832432d7b1960fec82e782d1f044fc3de153d), z: Fq(0x0c4f265cabb01c723bc11fe3047cc44c9acd516cbc9e86b55c3730946e3665de6d4d69791403af2ba82fa781cfa1b785) } }]
+
+result of database query:[1]
+indexes in Bloom fiter [58, 32, 6, 32, 6, 48, 6]
+indexes in Bloom fiter [62, 11, 28, 45, 62, 11, 28]
+indexes in Bloom fiter [26, 65, 20, 59, 14, 37, 8]
+combined indexes in Bloom filter [58, 32, 6, 48, 62, 11, 28, 45, 26, 65, 20, 59, 14, 37, 8]
+Init values of Dv: [[0], [0], [0], [0], [0], [0], [1], [0], [1], [0], [0], [1], [0], [0], [1], [0], [0], [0], [0], [0], [1], [0], [0], [0], [0], [0], [1], [0], [1], [0], [0], [0], [1], [0], [0], [0], [0], [1], [0], [0], [0], [0], [0], [0], [0], [1], [0], [0], [1], [0], [0], [0], [0], [0], [0], [0], [0], [0], [1], [1], [0], [0], [1], [0], [0], [1], [0], [0]]
+indexes in Bloom fiter [26, 65, 20, 59, 14, 37, 8]
+combined indexes in Bloom filter [26, 65, 20, 59, 14, 37, 8]
+indexes [26, 65, 20, 59, 14, 37, 8]
+number of indexes:7
+Aggregated Proof: [00, a2, 3b, a9, 8d, cd, 1b, 16, 3c, f2, e3, 21, c5, 6e, 6e, 20, 65, 53, 00, be, fd, 94, 80, 3d, de, d7, cf, d2, 6b, 1c, 66, 0f, 41, c8, 93, ae, 39, 87, 35, 71, 57, a3, 6c, 4e, 65, ee, 31, f2, be]
+indexes in Bloom fiter [26, 65, 20, 59, 14, 37, 8]
+combined indexes in Bloom filter [26, 65, 20, 59, 14, 37, 8]
+Indexes of item: [26, 65, 20, 59, 14, 37, 8]
+result of verification:false
+The key A is not in the database

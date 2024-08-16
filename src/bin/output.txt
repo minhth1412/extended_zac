@@ -1,0 +1,33 @@
+Vector of keys: ["A1", "B2", "C3", "D1", "E4", "F2", "G1"]
+Vector of values: [1, 2, 3, 1, 4, 2, 1]
+Database content B2: 2
+Database content C3: 3
+Database content E4: 4
+Database content G1: 1
+Database content D1: 1
+Database content F2: 2
+Database content A1: 1
+The values of D: [[], ["G1", "D1", "A1"], ["B2", "F2"], ["C3"], ["E4"]]
+existing values in D: ["G1", "D1", "A1", "3"]
+existing values in D: ["B2", "F2", "2"]
+existing values in D: ["C3", "1"]
+existing values in D: ["E4", "1"]
+
+Commitment:  [Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x0b6f53811c5f9288e4680514b3a0f52a65d71be7b764c38d455ae85a2a34aa562a1e9f4d311b8caed3c9b0fcba6353d8), y: Fq(0x0dfe668527fe14a92f5267c880c627c669524c96db0c7211f73eeadde18240ce91989d4428c6f8516b58e495be5cbb76), z: Fq(0x09d58d990d0725ca495fb30e9b6f698dd3dbd007c421b6665d9df1104723d15ec0a796b915797c4943f125d9c7b47ee8) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x13087dbab203f98fdc855d04c7e5aa0334abb85b359a344ba88e973cfd76958073c13ea921c61b33c1ede8bf72fb4e63), y: Fq(0x0af6b5ec33fec9a3cb8582c98385aaf27214e6c481b1fe8be91f7398c3ef12bc4a97deb0298253c24656d0e4e770b67c), z: Fq(0x010563d46d9f5b3ce6ccd891de96fb7a4e7ff5be8ccb86ad20a6c21bb45015fe55447aa593d0fa3f8faf165c00374fc7) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x0f90d4c19043ae6c886a55477db2659b4342220c36297adc3e520dca75681c018bed70596a2852f14a736402b8ffeb0d), y: Fq(0x026af363bd9dfec2e3a74be826bcf68beceb78ff82ad4de796aefe6f44305ae608b330a0d0207f02f632d3723df33ae1), z: Fq(0x03792c05993df8054f7ab8d444ae1d02f3addcd383177767b2aebcc72af4a6e5f483a8a6bf6619956cd7b4580f596c56) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x136929d68843211a3aaf2766dbae98cec44edfa6e8421794f081c3f0fca76b708bcc08ca50910c0b814133061450f0e0), y: Fq(0x1300622c24b0e2583d4a68df85abda75d5df5e078cfd12a0e54cf756d890529c93a9ae27e9f6b9a63a07073ebc54291e), z: Fq(0x07da3e249ae6c41a1a29039ca97e9932c5f84db469f1ac27cb560aa0738987a76886398420fa215fbcb1c68493251785) } }, Commitment { ciphersuite: 00, commit: G1 { x: Fq(0x136929d68843211a3aaf2766dbae98cec44edfa6e8421794f081c3f0fca76b708bcc08ca50910c0b814133061450f0e0), y: Fq(0x1300622c24b0e2583d4a68df85abda75d5df5e078cfd12a0e54cf756d890529c93a9ae27e9f6b9a63a07073ebc54291e), z: Fq(0x07da3e249ae6c41a1a29039ca97e9932c5f84db469f1ac27cb560aa0738987a76886398420fa215fbcb1c68493251785) } }]
+
+result of database query:[1]
+indexes in Bloom fiter [16, 49, 66, 31, 64, 13, 46]
+indexes in Bloom fiter [19, 54, 21, 56, 23, 6, 41]
+indexes in Bloom fiter [12, 48, 16, 0, 36, 4, 40]
+combined indexes in Bloom filter [16, 49, 66, 31, 64, 13, 46, 19, 54, 21, 56, 23, 6, 41, 12, 48, 0, 36, 4, 40]
+Set of indexes in get_value_sub_vector function : [16, 49, 66, 31, 64, 13, 46, 19, 54, 21, 56, 23, 6, 41, 12, 48, 0, 36, 4, 40]
+Init values of Dv: [[1], [0], [0], [0], [1], [0], [1], [0], [0], [0], [0], [0], [1], [1], [0], [0], [1], [0], [0], [1], [0], [1], [0], [1], [0], [0], [0], [0], [0], [0], [0], [1], [0], [0], [0], [0], [1], [0], [0], [0], [1], [1], [0], [0], [0], [0], [1], [0], [1], [1], [0], [0], [0], [0], [1], [0], [1], [0], [0], [0], [0], [0], [0], [0], [1], [0], [1], [0]]
+indexes in Bloom fiter [12, 48, 16, 0, 36, 4, 40]
+combined indexes in Bloom filter [12, 48, 16, 0, 36, 4, 40]
+indexes [12, 48, 16, 0, 36, 4, 40]
+number of indexes:7
+Aggregated Proof: [00, 90, 36, 8e, 16, 89, 3b, 51, 50, b4, b5, 8b, cc, c5, bc, 2d, ff, 4e, d8, 89, 08, c0, 41, 33, b0, 21, be, 28, 64, 54, 6d, 6f, f9, f4, b1, 83, 4c, f1, 77, 99, cc, c9, 1f, ac, 73, e1, d8, fb, ce]
+indexes in Bloom fiter [12, 48, 16, 0, 36, 4, 40]
+combined indexes in Bloom filter [12, 48, 16, 0, 36, 4, 40]
+Indexes of item: [12, 48, 16, 0, 36, 4, 40]
+result of verification:true
