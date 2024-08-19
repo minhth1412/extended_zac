@@ -49,6 +49,7 @@ impl<T: ?Sized> StandardBloomFilter<T> {
         // let optimal_m = Self::bitmap_size(items_count, fp_rate);
         // let optimal_k = Self::optimal_k(fp_rate);
 
+        // Change the m, k of Bloom Filter for matching with the old version
         let optimal_m = 5249;
         let optimal_k = 2;
 
